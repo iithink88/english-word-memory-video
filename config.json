@@ -1,0 +1,26 @@
+{
+  "llm": {
+    "provider": "dashscope",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_key": "YOUR_KEY",
+    "model": "qwen-plus",
+    "temperature": 0.6
+  },
+  "tts": {
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "+0%",
+    "volume": "+0%"
+  },
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "bgm_volume": 0.22
+  },
+  "paths": {
+    "ffmpeg": "C:\\Users\\lenovo\\bin\\ffmpeg\\ffmpeg-8.1.2-essentials_build\\bin\\ffmpeg.exe",
+    "ffprobe": "C:\\Users\\lenovo\\bin\\ffmpeg\\ffmpeg-8.1.2-essentials_build\\bin\\ffprobe.exe",
+    "font_head": "C:\\Windows\\Fonts\\simhei.ttf",
+    "font_body": "C:\\Windows\\Fonts\\msyh.ttf"
+  }
+}
